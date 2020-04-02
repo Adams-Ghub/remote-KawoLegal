@@ -1,0 +1,162 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.menubar{
+
+    margin-top: 20px;
+    
+}
+
+.bckgrndimg{
+    background-position: center;
+}
+
+.bdycontent{
+    text-align:center;
+}
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+}
+.socialimg{
+    margin-left: 30px;
+}
+p.bdycontent{
+    font-family: sans-serif;
+    padding: 0% 15%;
+    font-size:xx-large;
+}
+.custjumbo{
+    background-color: transparent;
+    color: white;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif;
+   
+}
+
+.custnavbar{
+    padding: 0% 6%;
+    border-width: 0px; 
+    border-radius: 0px;
+         
+}
+.logo{
+    width: 200px;
+    height: 96px;
+
+}
+.footer{
+    background-color: #380c0b;
+    margin: 1% 0%;
+    padding: 1% 10%;
+    color: white;
+}
+.menuitem{
+    color:#e72f2a;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a.menuitem:visited{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e72f2a;
+    color: #e72f2a;
+}
+a:hover{
+    border-color: #e72f2a;
+    border-style: solid;
+    border-width:2px;
+    color: #e72f2a;
+}
+
+
+
+.heading{
+    font-size: 38px;
+    text-align: center;
+}
+.text{
+    font-size:32px;
+    font-family: sans-serif;
+    padding: 0% 15%;
+    text-align: center;
+
+}
+
+
+/* CODES FOR THE STARTUPS PAGE */
+.other-navbar{
+    background-color: #380c0b;
+    padding: 0% 6%;
+    border-width: 0px; 
+    border-radius: 0px;
+}
+.startitem{
+    color:#e72f2a;      
+}
+.startheading{
+    color: #4e7290;
+}
+.startimg{
+    padding-top: 2%;
+
+}
+.startupbody{
+    padding: 0% 15%;
+    padding-bottom: 4%;
+}
+ 
+.searchgrp{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 4%;
+}
+.searchbox{
+    border-style: solid;
+    width: 100%;
+    height: 30px;
+    border-color: #e4e4e4;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-width: thin;
+    border-right-style: none;
+}
+.searchbtn{
+    border-style: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: thin;
+    background-color: #2f76ac;
+    border-color: #2f76ac;
+    color: white;
+    border-left-style: none;
+    width: 100px;
+}
+.srchtext{
+    font-size: 18px;
+    text-align: center;
+}
+.custglyph{
+    color: white;
+}
+
+
+/* CSS CODES FOR THE REGISTER PAGE */
+.custform{
+    margin: 2% 20% 5% 20%;
+}
+
+
+/* CODES FOR THE LOGIN PAGE */
+.loginmidsection{
+    margin: 5% 20%;
+}
+.loginmidsection>h3{
+    margin-bottom: 5%;
+}
